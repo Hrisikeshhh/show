@@ -479,7 +479,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    width: 80%;
     align-items: center;
     cursor: pointer;
     flex-direction: column;
@@ -680,6 +679,124 @@ footer {
     font-size: 105%;
     width: 89%;
 }
-
-
 }
+
+@media(min-width:300px) and (max-width:325px)
+{
+        .heroText {
+        margin: 46% 16%;
+    }
+
+    .heroHeadline {
+    font-size: 107%;
+    }
+
+    .subheadline {
+        font-size: 71%;
+    }
+
+    .heroBullets {
+        font-size: 71%;
+    }
+
+    .heroCTA {
+        font-size: 113%;
+        padding: 4%;
+    }
+
+        .intrique {
+        font-size: 115%;
+        margin-top: 56%;
+    }
+
+    .understood {
+        font-size: 95%;
+        margin-top: 30%;
+    }
+
+    .painPoint {
+        font-size: 71%;
+    }
+
+    .offer {
+        font-size: 71%;
+        color: #374151;
+    }
+
+    .why-works {
+    font-size: 75%;
+    margin-top: 5%;
+}
+
+.left-benefit {
+        font-size: 68%;
+    }
+
+    .right-stat {
+        font-size: 53%;
+    }
+
+    .valueStack {
+        font-size: 60%;
+        margin-top: 18%;
+    }
+
+    .closingPart {
+    font-size: 67%;
+}
+
+.registration-form {
+    font-size: 80%;
+}
+}
+
+@media (min-width:350px) and (max-width:400px)
+{
+    .heroHeadline {
+    font-size: 120%;
+}
+
+.subheadline {
+        font-size: 76%;
+        width: 72%;
+        margin-top: 5%;
+        color: #374151;
+    }
+
+        .heroBullets {
+        font-size: 76%;
+        margin-top: 10%;
+    }
+
+    .intrique {
+        font-size: 152%;
+        margin-top: 67%;
+    }
+
+    .container2 {
+        font-size: 74%;
+        margin-top: 13%;
+    }
+
+    .container3 {
+        margin-top: 13%;
+        font-size: 78%;
+    }
+
+    .valueStack {
+        font-size: 67%;
+        margin-top: 27%;
+    }
+
+    .closingPart {
+    margin: 7%;
+    font-size: 71%;
+}
+
+ .registration-form {
+    display: flex;
+    font-size: 83%;
+}
+}
+
+

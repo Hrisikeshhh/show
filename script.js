@@ -15,6 +15,10 @@ navBenefit.addEventListener('click',()=>{
   section6.scrollIntoView({
      behavior:"smooth"
   })
+   gsap.to('.navItems',{
+          x:'-100vw',
+          duration:0.3
+      })
 })
 
 let Review = document.querySelector('#Review');
