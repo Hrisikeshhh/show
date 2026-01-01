@@ -477,4 +477,186 @@ footer{
 .hero {
     flex-direction: column;
 }
+
+.leftHero {
+    width: 83%;
+    height: 100%;
+}
+
+.heroText {
+    margin: 52% 16%;
+    width: 100%;
+}
+
+.subheadline {
+    font-size: 95%;
+    width: 72%;
+    margin-top: 5%;
+    color: #374151;
+}
+
+.heroBullets {
+    font-size: 89%;
+    margin-top: 10%;
+}
+
+.heroCTA {
+    width: 45%;
+    font-size: 133%;
+    padding: 2%;
+    margin-top: 9%;
+}
+
+.heroPoint {
+        margin-top: 0.5%;
+}
+
+.rightHero {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 85vh;
+    width: 90%;
+    margin-top: 13%;
+}
+
+.intrique {
+    width: 80%;
+    margin: auto;
+    font-size: 190%;
+    margin-top: 83%;
+}
+
+.container2{
+    height: 85vh;
+    width: 90%;
+    margin-top: 13%;
+}
+
+
+.understood {
+    width: 80%;
+    font-size: 146%;
+    margin-top: 41%;
+}
+
+.painPoint {
+    font-size: 102%;
+    margin-top: 3%;
+}
+
+.offer {
+    font-size: 102%;
+    color: #374151;
+}
+
+.container3 {
+   height: 85vh;
+   width: 90%;
+   margin-top: 13%;
+}
+
+.benefits {
+    flex-direction: column;
+}
+
+.left-benefit {
+    height: 50%;
+    width: 100%;
+}
+
+.right-stat {
+    width: 100%;
+    height: 50%;
+    font-size: 74%;
+}
+
+.container4{
+   height: 85vh;
+   width: 90%;
+   margin-top: 13%;
+}
+
+.container5{
+   height: 85vh;
+   width: 90%;
+   margin-top: 13%;
+}
+
+.valueStack{
+    font-size: 81%;
+    margin-top: 39%;
+}
+
+.valueBullets {
+    font-size: 123%;
+    margin-top: 6%;
+}
+
+.valueBullets li {
+    margin-top: 2.5%;
+}
+
+.ClosingCopy1 {
+    font-size: 124%;
+    margin-top: 49%;
+}
+
+.ClosingCopy2 {
+    font-size: 124%;
+    margin-top: 3%;
+}
+
+.closingCTA {
+    padding: 3%;
+    font-size: 132%;
+    margin: 13%;
+}
+
+.scarcity {
+    color: #e0be7f;
+    font-size: 116%;
+    margin-top: 12%;
+}
+
+form {
+    height: 35vh;
+    width: 77%;
+}
+
+.container8{
+    width: 90%;
+    margin-top: 13%;
+}
+
+.container9 {
+        width: 90%;
+        margin-top: 13%;
+        background-color: #ffffff;
+        height: 53vh;
+        margin: auto;
+        border-radius: 15px;
+        display: flow-root;
+    }
+
+    .section8 {
+    background-color: #d8e0E9;
+    height: 66vh;
+    display: flow-root;
+    }
+
+footer {
+    background-color: #d8e0E9;
+    height: 5vh;
+}
+
+.formInput {
+    padding: 1.5%;
+    font-size: 105%;
+    width: 89%;
+}
+
+
 }
