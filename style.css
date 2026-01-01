@@ -490,6 +490,7 @@ footer{
     border-radius: 15px;
     background-color: #f4ebeb;
     width: 100vw;
+    z-index: 1;
 }
 
 .section1 {

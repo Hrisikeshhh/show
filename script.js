@@ -8,6 +8,24 @@ contactBtn.forEach((btn)=>{
     })
 })
 
+let navBenefit = document.querySelector('#navBenefit');
+let section6 = document.querySelector('.section6');
+
+navBenefit.addEventListener('click',()=>{
+  section6.scrollIntoView({
+     behavior:"smooth"
+  })
+})
+
+let Review = document.querySelector('#Review');
+let section5 = document.querySelector('.section5');
+
+Review.addEventListener('click',()=>{
+  section5.scrollIntoView({
+    behavior:'smooth'
+  })
+})
+
 // counter
  //  clients Counter
 
