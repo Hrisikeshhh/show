@@ -452,7 +452,29 @@ footer{
     height: 100%;
 }
 
+#close{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
 @media(max-width:800px){
+
+      #close {
+        display: inline-block;
+        font-size: 197%;
+        margin-left: 68%;
+    }
+
+    #menu{
+    display: inline-block;
+    font-size: 150%;
+    margin: 4%;
+    margin-top: 7%;
+    }
+    
     .navItems {
     display: flex;
     justify-content: space-evenly;

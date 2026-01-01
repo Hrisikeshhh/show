@@ -1,3 +1,13 @@
+let contactBtn = document.querySelectorAll('.contactBtn');
+let section8 = document.querySelector('.section8');
+contactBtn.forEach((btn)=>{
+    btn.addEventListener('click',()=>{
+      section8.scrollIntoView({
+        behavior:"smooth"
+      })
+    })
+})
+
 // counter
  //  clients Counter
 
@@ -67,3 +77,28 @@
 
   observer3.observe(clientDiv3);
 
+let mobile = gsap.matchMedia();
+mobile.add('(max-width:800px)',()=>{
+      let tl2 = gsap.timeline();
+      let menu = document.querySelector('#menu');
+      let close = document.querySelector('#close');
+
+      tl2.to('.navItems',{
+          x:'100vw',
+          duration:0.3
+      })
+      tl2.from('.item',{
+          x:20,
+          stagger:0.3,
+          opacity:0
+      })
+
+      tl2.pause();
+
+      menu.addEventListener('click',()=>{
+        tl2.play();
+      })
+      close.addEventListener('click',()=>{
+        tl2.reverse();
+      })
+    })
